@@ -14,18 +14,6 @@ body {
 .container {
     height: 100vh;
     background-color: #ebebeb;
-    /* border: 1px solid red; */
-}
-
-.container-top {
-    height: 10%;
-}
-
-.container-bottom {
-    display: flex;
-    justify-content: flex-end;
-    height: 10%;
-    /* border: 1px solid green; */
 }
 
 .container-top img {
@@ -36,10 +24,8 @@ body {
     display: flex;
     flex-direction: row nowrap;
     height: 100%;
-    /* max-width: 80%; */
     margin: 0 auto;
     background-color: #fcfcfc;
-    /* border: 1px solid red; */
 }
 
 
@@ -63,7 +49,6 @@ body {
     font-size: .1.5rem;
     padding: 0;
     margin: 0;
-    /* border: 1px solid black; */
 }
 
 .main .main-left .form span {
@@ -104,7 +89,6 @@ body {
 
 .main .main-left .form .form-ps div {
     padding: 0 .3rem;
-    /* border: 1px solid black; */
 }
 
 .main .main-left .form .form-ps .hr {
@@ -112,7 +96,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    /* border: 1px solid red; */
 }
 
 .main .main-left .form .form-ps hr {
@@ -173,7 +156,6 @@ body {
     width: 30%;
     font-size: .8rem;
     align-items: center;
-    /* border: 1px solid green; */
 }
 
 .main .main-left .create .create-with > div hr {
@@ -191,7 +173,6 @@ body {
     width: 70%;
     padding: 1rem;
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 .main .main-left .socials img {
