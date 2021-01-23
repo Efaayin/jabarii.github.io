@@ -1,0 +1,209 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: #ebebeb;
+    /* border: 1px solid red; */
+}
+
+.container-top {
+    height: 10%;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+    /* border: 1px solid green; */
+}
+
+.container-top img {
+    width: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: row nowrap;
+    height: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    /* border: 1px solid red; */
+}
+
+
+
+
+/* MAIN LEFT */
+
+.main .main-left {
+    padding: 2rem;
+    width: 55%;
+}
+
+.main .main-left h1 {
+    color: #322778;
+    padding: .7rem 0;
+}
+
+.main .main-left p {
+    color: #9c98b3;
+    font-size: .9rem;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+.main .main-left .form span {
+    display: block;
+    padding: 1rem 0;
+    color: #5c547f;
+    font-weight: bold;
+}
+
+.main .main-left .form .input-field {
+    display: flex;
+    justify-content: space-between;
+    padding-right: .7rem;
+    padding-left: .7rem;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.main .main-left .form .input-field input {
+    width: 100%;
+    padding: .7rem;
+    color: #5c547f;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+.main .main-left .form .input-field img {
+    width: 1rem;
+}
+
+.main .main-left .form .form-ps {
+    display: none;
+    padding: .2rem 0;
+    width: 95%;
+}
+
+.main .main-left .form .form-ps div {
+    padding: 0 .3rem;
+    /* border: 1px solid black; */
+}
+
+.main .main-left .form .form-ps .hr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+
+.main .main-left .form .form-ps hr {
+    display: inline-block;
+    background-color: #88e37c;
+    width: 5rem;
+    height: .3rem;
+    border: none;
+}
+
+.main .main-left .form .form-TC {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    width: 95%;
+    padding: 1rem 0;
+}
+
+.main .main-left .form .form-TC p {
+    display: block;
+    padding: 0;
+    width: 93%;
+    font-size: .9rem;
+    text-align:justify;
+}
+
+.main .main-left .form .form-button {
+    padding: 1.3rem 0;
+    width: 95%;
+}
+
+.main .main-left .form .form-button button {
+    width: 100%;
+    padding: .7rem;
+    color: #fceffc;
+    background-image: linear-gradient(to left, #90247a, #4f2378);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.main .main-left .form .form-button button:hover {
+    background-image: linear-gradient(to left, rgba(144, 36, 122, .9), rgba(79, 35, 120, .9));
+}
+
+.main .main-left .create .create-with {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+.main .main-left .create .create-with > div {
+    display: flex;
+    width: 30%;
+    font-size: .8rem;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.main .main-left .create .create-with > div hr {
+    width: 100%;
+}
+
+.main .main-left .create .create-with > p {
+    width: 40%;
+    text-align: center;
+}
+
+
+
+/* MAIN RIGHT */
+
+.main-right {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5rem;
+    background-image: linear-gradient(to bottom left, #90247a, #4f2378);
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.main-right .main-right__top {
+    background-image: url(imgs/wire-bg.svg);
+}
+
+.main-right img {
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: 2px solid orange; */
+}
